@@ -1,0 +1,168 @@
+html {
+    background-color: #53817a;
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-weight: 500;
+}
+
+h2, h3 {
+    margin: 0;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+hr {
+    border-color: #53817a;
+    width: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.container{
+    font-family: 'Lora', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    letter-spacing: 0.03rem;
+    display: grid;
+    grid-template-areas: 'aside main main';
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    /*min-height: 100vh;*/
+    margin: 0 auto;
+    /*position: relative;*/
+    /*top: -5000px;*/
+}
+
+aside {
+    background-color: #0a4c41;
+    grid-area: aside;
+    color: white;
+    padding: 80px 50px;
+}
+
+main {
+    background-color: white;
+    grid-area: main;
+    padding: 80px 50px;
+}
+
+
+main h2 {
+    font-size: 28px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.photo {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.role {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mail {
+    color: white;
+}
+
+.mail:hover {
+    color: #53817a;
+    text-decoration: underline;
+}
+
+.workplace {
+    margin-top: 10px;
+}
+
+.svg-wrapper {
+    height: 20px;
+    margin-left: -8px;
+}
+
+.svg-last {
+    margin-left: -8px;
+}
+
+.languages {
+    margin-right: 20px;
+}
+
+svg {
+    max-width: 250px;
+    height: 20px;
+}
+
+aside section {
+    padding-left: 20px;
+}
+
+.info {
+    padding: 0;
+}
+
+.workplace-info__period {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: grey;
+    letter-spacing: 0.04rem;
+}
+
+.phone {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.phone:hover {
+    color: #53817a;
+}
+
+a {
+    font-size: 18px;
+    color: #53817a;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #0a4c41;
+    text-decoration: underline;
+}
+
