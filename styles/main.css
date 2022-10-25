@@ -99,6 +99,7 @@ section {
 
 .mail {
     color: white;
+    display: block;
 }
 
 .mail:hover {
@@ -183,10 +184,6 @@ a:hover {
         padding: 80px 50px 20px;
         color: white;
         text-align: center;
-    }
-
-    .mail {
-        display: block;
     }
 
     .aside {
