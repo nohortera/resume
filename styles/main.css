@@ -132,6 +132,10 @@ aside section {
     padding-left: 20px;
 }
 
+.proj-link {
+    margin-top: 5px;
+}
+
 .info {
     padding: 0;
 }
