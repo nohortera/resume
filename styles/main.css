@@ -53,7 +53,7 @@ li {
     /*top: -5000px;*/
 }
 
-aside {
+.aside {
     background-color: #0a4c41;
     grid-area: aside;
     color: white;
@@ -159,6 +159,7 @@ a {
     color: #53817a;
     text-decoration: none;
     transition: 0.2s;
+    word-break: break-all;
 }
 
 a:hover {
@@ -166,3 +167,49 @@ a:hover {
     text-decoration: underline;
 }
 
+.header, .footer {
+    display: none;
+}
+
+
+@media screen and (max-width: 769px) {
+    .header {
+        display: block;
+        background-color: #0a4c41;
+        padding: 80px 50px 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .mail {
+        display: block;
+    }
+
+    .aside {
+        display: none;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .footer {
+        display: block;
+        background-color: #0a4c41;
+        color: white;
+        padding: 50px 50px 20px;
+        text-align: center;
+    }
+
+    .languages {
+        margin: 0;
+    }
+
+    .languages>ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
