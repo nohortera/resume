@@ -176,6 +176,10 @@ a:hover {
     display: none;
 }
 
+.proj-link__sub-comment {
+    color: red;
+}
+
 
 @media screen and (max-width: 769px) {
     .header {
