@@ -140,7 +140,7 @@ li {
     margin-bottom: 20px;
 }
 
-.proj-link > a {
+.proj-link a {
     display: inline-flex;
     justify-content: start;
     align-items: center;
