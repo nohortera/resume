@@ -63,9 +63,8 @@ li {
 main {
     background-color: white;
     grid-area: main;
-    padding: 80px 50px;
+    padding: 30px 50px;
 }
-
 
 main h2 {
     font-size: 28px;
@@ -134,7 +133,26 @@ aside section {
 }
 
 .proj-link {
-    margin-top: 5px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.proj-link > a {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2px;
+}
+
+.proj-link svg {
+    fill: #53817a;
+}
+
+.proj-link a:hover svg {
+    fill: #0a4c41;
 }
 
 .info {
